@@ -86,7 +86,7 @@ Next, let's write a test to create a new tea. Since authentication is required, 
 # tests/test_teas.py
 
 
-def test_create_tea(test_app: TestClient, test_db: Session):
+def test_create_tea(test_app: TestClient, test_db: Session, mock_user):
 
     # Create a new mock user in the test database
     user = UserModel(
@@ -97,8 +97,7 @@ def test_create_tea(test_app: TestClient, test_db: Session):
     test_db.add(user)
     test_db.commit()
 
-
-    # Log in as a mock user and get authentication headers
+    # Use the login helper to generate authentication headers for the existing mock user
     headers = login(test_app, 'testUser123', 'mys3cretp2ssw0rd')
 
     # Data for creating a new tea

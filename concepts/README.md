@@ -31,4 +31,4 @@ After installing the dependencies, you can execute your tests with the following
 pipenv run pytest
 ```
 
-Pytest will automatically discover test files and execute them, displaying a summary of the results. Writing effective tests helps catch errors early and ensures your FastAPI app runs as expected.
+Pytest will automatically discover test files and execute them, displaying a summary of the results in your terminal.

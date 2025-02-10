@@ -9,9 +9,9 @@
 
 Pytest is a testing framework that helps automate and organize test execution. When working with FastAPI, Pytest allows us to verify that our API endpoints behave as expected.
 
-### configuring pytest
+### Configuring `pytest`
 
-By default, Pytest will look for test files inside a `tests` directory in the root of the project. That allows us to always run tests using the following command:
+By default, Pytest will look for test files inside a `tests` directory in the root of the project. That allows us to always run tests using the same command:
 
 ```bash
 pipenv run pytest
@@ -132,6 +132,7 @@ def seed_db(db):
     db.commit()
 
 def login(test_app: TestClient, username: str, password: str):
+    # Log in using an existing mock user
     response = test_app.post("/api/login", json={"username": username, "password": password})
 
     if response.status_code != 200:
