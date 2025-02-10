@@ -53,7 +53,7 @@ def test_get_teas(test_app: TestClient, override_get_db):
     assert response.status_code == 200
     teas = response.json()
     assert isinstance(teas, list)
-    assert len(teas) == 2  # Ensure two teas are in the test database
+    assert len(teas) >= 2  # Ensure there are at least two teas in the test database
     for tea in teas:
         assert 'id' in tea
         assert 'name' in tea
@@ -86,7 +86,7 @@ Next, let's write a test to create a new tea. Since authentication is required, 
 # tests/test_teas.py
 
 
-def test_create_tea(test_app: TestClient, test_db: Session, mock_user):
+def test_create_tea(test_app: TestClient, test_db: Session):
 
     # Create a new mock user in the test database
     user = UserModel(
