@@ -16,16 +16,16 @@ concepts = new Template.Microlesson {
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+preparingThePytestTestingEnvironment = new Template.Microlesson {
+  friendlyName = "Preparing the Pytest Testing Environment"
+  dirName = "preparing-the-pytest-testing-environment"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+writingUnitTests = new Template.Microlesson {
+  friendlyName = "Writing Unit Tests"
+  dirName = "writing-unit-tests"
   type = "Content"
   videoUrl = ""
 }

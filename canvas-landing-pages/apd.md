@@ -1,4 +1,3 @@
-<!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix">Python</span>
   <span class="headline">FastAPI Unit Testing with Pytest</span>

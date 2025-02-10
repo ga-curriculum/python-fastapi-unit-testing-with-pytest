@@ -1,21 +1,21 @@
 <h1>
-  <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="prefix">Python</span>
+  <span class="headline">FastAPI Unit Testing with Pytest</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module, you will follow a step-by-step walkthrough where you'll learn how to set up a Pytest testing environment for a FastAPI CRUD app. We'll discuss and download dependencies, create configuration files and write unit tests to validate several endpoints of your RESTful API.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                                           | Est. Delivery Time | Skills                                                                                                                              |
+| ------------------------------------------------------------------------------------------------ | :----------------: | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                                       |       5 min        | Set up the development environment.                                                                                                 |
+| [Concepts](./concepts/README.md)                                                                 |       10 min       | Understand the purpose and core features of the Python `Pytest` library, including installation and basic usage.                    |
+| [Preparing the Pytest Testing Environment](./preparing-the-pytest-testing-environment/README.md) |       15 min       | Prepare and configure a testing environment for Pytest, including setting up the necessary configurations for testing FastAPI APIs. |
+| [Writing Unit Tests](./writing-unit-tests/README.md)                                             |       20 min       | Write unit tests to validate FastAPI endpoints, using Pytest for testing and debugging the API's functionality.                     |
+| **Total content**                                                                                |       50 min       |                                                                                                                                     |
 
 ## References
 
@@ -25,32 +25,22 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Python FastAPI Serializers and Controllers
+- Python FastAPI Authentication
+- Python FastAPI Authorization
 
 ### Starter code
 
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-authorization-solution)
 
 ### Solution code
 
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-unit-testing-with-pytest-solution)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-unit-testing-with-pytest/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-unit-testing-with-pytest/canvas-landing-pages/fallback.html)
 
 ### Resources
 
