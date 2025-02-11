@@ -27,7 +27,7 @@ touch pytest.ini
 
 In your `pytest.ini` add the following contents:
 
-```ini
+```text
 [pytest]
 addopts = -rP -p no:warnings
 ```

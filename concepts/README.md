@@ -16,12 +16,14 @@ With Pytest, you can write unit tests for your FastAPI application, automaticall
 To start using Pytest with FastAPI, install the necessary dependencies:
 
 ```bash
-pipenv install pytest starlette httpx
+pipenv install --dev pytest starlette httpx
 ```
 
 - `pytest`: The core testing framework.
 - `starlette`: Provides essential components for FastAPI, including test utilities.
 - `httpx`: A powerful HTTP client used to simulate API requests in tests.
+
+> This will add those packages under the [dev-packages] section in your Pipfile and install them for development use.
 
 ### Running tests with `pytest`
 
