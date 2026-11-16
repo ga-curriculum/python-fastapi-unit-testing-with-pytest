@@ -31,11 +31,11 @@ In this module, you will follow a step-by-step walkthrough where you'll learn ho
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-authorization-solution)
+🟢 [Starter code](https://github.com/ga-curriculum/python-fastapi-authorization-solution)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-unit-testing-with-pytest-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/python-fastapi-unit-testing-with-pytest-solution)
 
 ### Course landing pages
 
